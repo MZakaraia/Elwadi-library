@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مكتبة معهد الوادي بالعبور</title>
+    <meta name="description" content="البوابة الإلكترونية لمكتبة معهد الوادي بالعبور. تضم مصادر في نظم المعلومات الإدارية، المحاسبة، العلوم المصرفية، والتسويق.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container nav-content">
+            <a href="#" class="brand" data-link="home">
+                <i class="fa-solid fa-book-open-reader"></i>
+                <div class="brand-text">
+                    <h1>معهد الوادي بالعبور</h1>
+                    <span>المكتبة الإلكترونية</span>
+                </div>
+            </a>
+            <ul class="nav-links">
+                <li><a href="#" data-link="home" class="active">الرئيسية</a></li>
+                <li><a href="#" data-link="departments">الأقسام العلمية و الكتب</a></li>
+                <li><a href="#" data-link="about">عن المكتبة</a></li>
+            </ul>
+            <ul class="auth-links" id="auth-links">
+                <!-- Auth links injected by JS -->
+            </ul>
+            <div class="mobile-menu-btn" id="mobile-menu-btn">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content Area -->
+    <main id="app-content">
+        <!-- Views injected by JS -->
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-info">
+                <h2>مكتبة معهد الوادي</h2>
+                <p>بوابتك نحو المعرفة والتميز الأكاديمي.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="footer-links">
+                <h3>روابط سريعة</h3>
+                <ul>
+                    <li><a href="#" data-link="home">الرئيسية</a></li>
+                    <li><a href="#" data-link="departments">الأقسام والكتب</a></li>
+                    <li><a href="#" data-link="about">عن المكتبة</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h3>تواصل معنا</h3>
+                <p><i class="fa-solid fa-location-dot"></i> مدينة العبور، القاهرة</p>
+                <p><i class="fa-solid fa-envelope"></i> library@elwadi.edu.eg</p>
+                <p><i class="fa-solid fa-phone"></i> +20 123 456 7890</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 مكتبة معهد الوادي بالعبور. جميع الحقوق محفوظة.</p>
+        </div>
+    </footer>
+
+    <!-- App Logic -->
+    <script src="app.js"></script>
+</body>
+</html>
